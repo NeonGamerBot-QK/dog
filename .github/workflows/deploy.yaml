@@ -6,7 +6,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    environment: production
+    environment: deploy
     steps:
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v0.1.8
